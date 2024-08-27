@@ -7,6 +7,13 @@
 body{
     background: #222;
 }
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
 .card{
     width: 90%;
     max-width: 470px;
