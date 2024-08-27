@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #FD6F01, #FFB000);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.download-section {
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-section a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.download-section a:hover {
+    background-color: #555;
+}
+
+.download-section img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.download-section span {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.download-section .small-text {
+    font-size: 12px;
+    display: block;
+}
